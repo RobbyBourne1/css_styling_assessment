@@ -1,0 +1,132 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+
+
+header {
+  background-color: #ff8523;
+  padding: 40px 15px;
+}
+
+body{
+  font-family:Helvetica, Arial, sans-serif;
+  background: url("img/bg.jpg") fixed repeat;
+  padding: 10px 80px;
+}
+
+body > div {
+  border: 1px solid #ff8523;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+}
+
+nav {
+  padding-top: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 10px 40px;
+}
+
+h2, h3 {
+  color: #1fabe5;
+}
+
+a {
+  color: #1fabe5;
+}
+
+ul {
+  font-weight: bold;
+}
+
+section{
+  border-top: 2px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
+  padding: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr td {
+  border: 1px solid #046c97;
+  color: white;
+  background-color: #1fabe5;
+  padding: 15px;
+}
+
+tbody tr td {
+  border: 1px solid #1fabe5;
+  padding: 15px;
+}
+
+td img{
+  width: auto;
+  height: 40%;
+}
+
+form {
+  background-color: #dddddd;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.name {
+  background-color: #ff8523;
+  padding: 30px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#first_name {
+  margin-right: 70px
+}
+
+input {
+  padding: 10px;
+}
+
+.city_container {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#bio {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: #1fabe5;
+  margin-top: 10px;
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
